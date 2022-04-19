@@ -1,7 +1,69 @@
 @import "./reset.css";
+@import"./variables.css";
 
-.grid{
+*{
+    border: 1px solid red;
+    font-family: "IBM Plex Sans";
+}
+
+body::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../assets/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+    top: 0;
+    z-index: -1;
+  }
+
+.app-grid {
     display: grid;
-    grid-template-columns: 1;
-    width: 1440px;
+    width: 375px;
+}
+
+.hero-image-wrapper {
+    height: 600px; 
+    background-color: black
+}
+
+.image-wrapper {
+  z-index: 10;
+}
+
+.main-content-wrapper {
+    background-color: var(--orange);
+    color: var(--white);
+}
+.hero-image-wrapper {
+    background-image: url("../assets/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background-image img{
+    width: 100px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apple-button {
+    background-color: black;
+}
+
+.android-button {
+    background-color: white;
+    color: black;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
 }
