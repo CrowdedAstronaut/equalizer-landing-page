@@ -54,11 +54,33 @@ body::before {
     align-items: center;
 }
 
-.apple-button {
+.apple-icon {
     background-color: black;
+    align-items: center;
+    border: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 700;
+    gap: 8px;
+    height: 61px;
+    justify-content: center;
+    outline: none;
 }
 
-.android-button {
+.android-icon {
+    align-items: center;
+    border: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 700;
+    gap: 8px;
+    height: 61px;
+    justify-content: center;
+    outline: none;
     background-color: white;
     color: black;
 }
