@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
 /* Colors From the Style Guide */
 html{
 --teal: #66E2DC;
@@ -13,4 +15,30 @@ html{
 --mobile-title-fw:700;
 --mobile-title-font-style: bold;
 --mobile-title-line-height: 52px;
+
+--mobile-content-font-size: 16px;
+--mobile-content-fw:400;
+--mobile-content-font-style: normal;
+--mobile-content-line-height: 26px;
+
+--tablet-title-font-size: 40px;
+--tablet-title-fw:700;
+--tablet-title-font-style: bold;
+--tablet-title-line-height: 52px;
+
+--tablet-content-font-size: 16px;
+--tablet-content-fw:400;
+--tablet-content-font-style: normal;
+--tablet-content-line-height: 26px;
+
+--desktop-title-font-size: 88px;
+--desktop-title-fw:700;
+--desktop-title-font-style: bold;
+--desktop-title-line-height: 88px;
+--desktop-letter-spacing: -1px;
+
+--desktop-content-font-size: 20px;
+--desktop-content-fw:400;
+--desktop-content-font-style: normal;
+--desktop-content-line-height: 34px;
 }

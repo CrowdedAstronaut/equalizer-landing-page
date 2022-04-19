@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Equalizer Landing Page</title>
     <link rel="stylesheet" href="./styles/style.css" />
     <script src="/js/scripts.js" defer></script>
@@ -23,10 +26,12 @@
       <div class="title-content">
         <p>
           A system audio equalizer specifically <br />
-          designed for Android and iOS. Freely tune the <br />
+          designed for Android and iOS. Freely tune the
+          <br />
           way your music sounds with a professional <br />
           grade parametric EQ & volume mixer. Control <br />
-          bass, mids, treble, gain control, reverb, and <br />
+          bass, mids, treble, gain control, reverb, and
+          <br />
           more!
         </p>
       </div>
@@ -35,7 +40,10 @@
       <div class="hero-image-wrapper">
         <div class="image-wrapper">
           <div class="background-image">
-            <img src="./assets/illustration-app.png" alt="" />
+            <img
+              src="./assets/illustration-app.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -49,11 +57,43 @@
           our incredible features!
         </p>
         <span class="price">$4 / month</span>
-        <div class="apple-button">
-          <button></button>
-        </div>
-        <div class="android-button">
-          <button></button>
+        <div class="button-wrapper">
+          <div class="apple-button">
+            <a
+              role="button"
+              tabindex="0"
+              class="green-button"
+              onclick="getAdvice()"
+              aria-label="click here to generate some advice"
+              rel="noopener"
+              href="#"
+            >
+              <div class="apple-icon">
+                <img
+                  src="./assets/icon-apple.svg"
+                  alt="this is an apple icon"
+                />
+              </div>
+            </a>
+          </div>
+          <div class="android-button">
+            <a
+              role="button"
+              tabindex="0"
+              class="green-button"
+              onclick="getAdvice()"
+              aria-label="click here to generate some advice"
+              rel="noopener"
+              href="#"
+            >
+              <div class="android-icon">
+                <img
+                  src="./assets/icon-android.svg"
+                  alt="this is a android icon"
+                />
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </main>
