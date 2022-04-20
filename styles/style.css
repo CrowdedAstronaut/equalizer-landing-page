@@ -11,7 +11,7 @@ body::before {
     content: "";
     width: 100%;
     min-height: 100vh;
-    background-image: url("../assets/bg-main-mobile.png");
+   
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top right;
@@ -20,10 +20,24 @@ body::before {
   }
 
 .app-grid {
+    background-image: url("../assets/bg-main-mobile.png");
     display: grid;
     width: 375px;
 }
 
+.title h1{
+    font-size: var(--mobile-title-font-size);
+    font-weight: var(--mobile-title-fw);
+    font-style: var(--mobile-title-font-style);
+    line-height: var(--mobile-title-line-height);
+}
+
+.title-content p{
+    font-size: var(--mobile-content-font-size);
+    font-weight: var(--mobile-content-fw);
+    font-style: var(--mobile-content-font-style);
+    line-height: var(--mobile-content-line-height);
+}
 .hero-image-wrapper {
     height: 600px; 
     background-color: black
@@ -43,8 +57,44 @@ body::before {
     background-size: 100%;
 }
 
+.background-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .background-image img{
-    width: 100px;
+    width: 208.97px;
+}
+
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.main-content-text {
+    font-style: var(--mobile-content-font-style);
+    font-weight: var(--mobile-content-fw);
+    font-size: var(--mobile-content-font-size);
+    line-height: var(--mobile-content-line-height);
+}
+
+.price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+}
+
+#term {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: -0.2px;
 }
 
 .buttons-wrapper {
@@ -69,6 +119,15 @@ body::before {
     outline: none;
 }
 
+.apple-icon span, .android-icon span {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    
+}
 .android-icon {
     align-items: center;
     border: transparent;
