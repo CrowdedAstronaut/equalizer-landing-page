@@ -55,8 +55,8 @@ body::before {
 }
 
 .apple-icon {
-    background-color: black;
     align-items: center;
+    background-color: black;
     border: transparent;
     border-radius: 12px;
     cursor: pointer;
@@ -72,6 +72,7 @@ body::before {
 .android-icon {
     align-items: center;
     border: transparent;
+    background-color: white;
     border-radius: 12px;
     cursor: pointer;
     display: flex;
@@ -81,7 +82,6 @@ body::before {
     height: 61px;
     justify-content: center;
     outline: none;
-    background-color: white;
     color: black;
 }
 
