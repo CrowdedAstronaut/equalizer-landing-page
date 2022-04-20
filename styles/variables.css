@@ -44,3 +44,10 @@ html{
 --desktop-content-font-style: normal;
 --desktop-content-line-height: 34px;
 }
+
+/* Widths */
+html{
+    --mobile-app-width:375px;
+    --tablet-app-width:768px;
+    --desktop-width:1440px;
+}

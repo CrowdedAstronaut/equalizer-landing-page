@@ -6,24 +6,30 @@
     font-family: "IBM Plex Sans";
 }
 
-body::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    min-height: 100vh;
-   
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: top right;
-    top: 0;
-    z-index: -1;
-  }
+body{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
 
 .app-grid {
     background-image: url("../assets/bg-main-mobile.png");
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-position: 0% -40%;
     display: grid;
-    width: 375px;
+    width: var(--mobile-app-width);
+   
+
 }
+
+header{
+    padding: 0% 0% 45% 8%;
+    
+ 
+}
+
+
 
 .title h1{
     font-size: var(--mobile-title-font-size);
@@ -39,8 +45,9 @@ body::before {
     line-height: var(--mobile-content-line-height);
 }
 .hero-image-wrapper {
-    height: 600px; 
-    background-color: black
+    /* height: 600px;  */
+    background-color: black;
+    border-radius: 12px;
 }
 
 .image-wrapper {
@@ -50,17 +57,21 @@ body::before {
 .main-content-wrapper {
     background-color: var(--orange);
     color: var(--white);
+    border-radius: 12px;
+    transform: translateY(-10%);
 }
 .hero-image-wrapper {
     background-image: url("../assets/bg-pattern-2.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
+    background-position: center;
 }
 
 .background-image {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateY(-25%);
 }
 .background-image img{
     width: 208.97px;
@@ -92,8 +103,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 32px;
-/* identical to box height, or 160% */
-
 letter-spacing: -0.2px;
 }
 
