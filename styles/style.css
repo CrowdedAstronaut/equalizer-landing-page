@@ -97,15 +97,14 @@ header{
     padding-bottom: 32px;
 }
 
-.social-button{
-    width: 333px;
-}
+
 
 .price {
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 52px;
+    padding-bottom: 32px;
 }
 
 #term {
@@ -167,7 +166,7 @@ letter-spacing: -0.2px;
 .social-button {
     display: grid;
     align-items: center;
-    width:333px;
+    width:296px;
     text-decoration: none;
     padding: 16px 0px 16px 0px;
 }
@@ -178,7 +177,7 @@ text-decoration: none;
 
 .social-media{
     display: flex;
-    padding: 32px 0px;
+    padding: 32px
 }
 footer{
     padding-left: 22px;
