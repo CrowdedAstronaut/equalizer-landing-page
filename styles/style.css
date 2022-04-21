@@ -62,7 +62,7 @@ header{
     color: var(--white);
     border-radius: 12px;
     transform: translateY(-12%);
-  padding: 10%;
+    padding: 10%;
 }
 .hero-image-wrapper {
     background-image: url("../assets/bg-pattern-2.svg");
@@ -145,7 +145,6 @@ letter-spacing: -0.2px;
     line-height: 32px;
     text-align: center;
     letter-spacing: -0.18px;
-    
 }
 .android-icon {
     align-items: center;
@@ -188,4 +187,48 @@ footer{
     font-size: var(--mobile-content-font-size);
     line-height: var(--mobile-content-line-height);
     padding: 32px 0px 32px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .app-grid {
+        background-image: url("../assets/bg-main-tablet.png");
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        background-position: 50% -17%;
+        display: grid;
+        width: var(--tablet-app-width);
+    }
+    .title h1{
+        font-size: var(--tablet-title-font-size);
+        font-weight: var(--tablet-title-fw);
+        font-style: var(--tablet-title-font-style);
+        line-height: var(--tablet-title-line-height);
+    }
+    
+    .title-content p{
+        font-size: var(--tablet-content-font-size);
+        font-weight: var(--tablet-content-fw);
+        font-style: var(--tablet-content-font-style);
+        line-height: var(--tablet-content-line-height);
+    }
+    .hero-image-wrapper {
+        background-size: 37%;
+        background-position: 50% -25%;
+    }
+    
+    .background-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-23%, -25%);
+    }
+    .background-image img{
+        width: 270.21px;
+    }
+    .main-content-wrapper {
+        width: 399px;
+        transform: translate(65%, -65%);
+        padding: 5%;
+    }
+    
 }
