@@ -63,7 +63,9 @@ header{
     color: var(--white);
     border-radius: 12px;
     /* transform: translateY(-12%); */
+    /* position: relative; */
     position: relative;
+    bottom: 50px;
     padding: 10%;
 }
 .hero-image-wrapper {
@@ -71,6 +73,7 @@ header{
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: center;
+    position: relative;
 }
 
 .background-image {
