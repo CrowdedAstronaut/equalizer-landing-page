@@ -51,17 +51,19 @@ header{
     /* height: 600px;  */
     background-color: black;
     border-radius: 12px;
+    /* position: absolute; */
 }
 
-.image-wrapper {
+/* .image-wrapper {
   z-index: 10;
-}
+} */
 
 .main-content-wrapper {
     background-color: var(--orange);
     color: var(--white);
     border-radius: 12px;
-    transform: translateY(-12%);
+    /* transform: translateY(-12%); */
+    position: relative;
     padding: 10%;
 }
 .hero-image-wrapper {
@@ -75,7 +77,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(-25%);
+    position: relative;
+    bottom: 98px;
+    /* transform: translateY(-25%); */
 }
 .background-image img{
     width: 208.97px;
