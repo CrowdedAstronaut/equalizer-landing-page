@@ -80,8 +80,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     position: relative;
     bottom: 98px;
+=======
+    flex-direction: column;
+>>>>>>> 7d5fa8e (desktop commit)
     /* transform: translateY(-25%); */
 }
 .background-image img{
@@ -129,7 +133,7 @@ letter-spacing: -0.2px;
     align-items: center;
 }
 
-.apple-icon {
+.apple-icon  {
     color: white;
     align-items: center;
     background-color: black;
@@ -227,7 +231,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        transform: translate(-23%, -25%);
+        /* transform: translate(-23%, -25%); */
     }
     .background-image img{
         width: 270.21px;
@@ -235,7 +239,7 @@ footer{
    
     .main-content-wrapper {
         width: 399px;
-        transform: translate(65%, -65%);
+        /* transform: translate(65%, -65%); */
         padding: 5%;
     }
     
