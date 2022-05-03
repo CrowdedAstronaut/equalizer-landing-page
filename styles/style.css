@@ -185,7 +185,9 @@ text-decoration: none;
 
 .social-media{
     display: flex;
-    padding: 32px
+    padding: 32px 0px;
+    align-items: flex-start;
+    gap: 15px;
 }
 footer{
     padding-left: 22px;
@@ -279,6 +281,7 @@ footer{
     footer{
         margin-top: 200px;
         display: flex;
+        justify-content: space-between;    
     }
     
 }
