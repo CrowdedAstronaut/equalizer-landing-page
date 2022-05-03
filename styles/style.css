@@ -26,6 +26,9 @@ body{
 header{
     padding: 0% 0% 45% 5%;
 }
+.hidden {
+    display: none;
+}
 
 .logo {
     padding:0px 0px 65px 0px;
@@ -51,7 +54,7 @@ header{
     /* height: 600px;  */
     background-color: black;
     border-radius: 12px;
-    /* position: absolute; */
+    position: absolute;
 }
 
 /* .image-wrapper {
@@ -63,7 +66,6 @@ header{
     color: var(--white);
     border-radius: 12px;
     /* transform: translateY(-12%); */
-    /* position: relative; */
     position: relative;
     bottom: 50px;
     padding: 10%;
@@ -80,12 +82,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     position: relative;
     bottom: 98px;
-=======
-    flex-direction: column;
->>>>>>> 7d5fa8e (desktop commit)
     /* transform: translateY(-25%); */
 }
 .background-image img{
@@ -200,7 +198,22 @@ footer{
     padding: 32px 0px 32px 0px;
 }
 
+
 @media only screen and (min-width: 768px) {
+    header{
+        padding: 0% 0% 30% 5%;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    .hidden {
+       width: 266px;
+       display: inline;
+       position: absolute;
+       left:63%;
+    }
     .app-grid {
         background-image: url("../assets/bg-main-tablet.png");
         background-repeat: no-repeat;
@@ -222,25 +235,50 @@ footer{
         font-style: var(--tablet-content-font-style);
         line-height: var(--tablet-content-line-height);
     }
-    .hero-image-wrapper {
+
+    .content-grid {
+        display: grid;
+        background-image: url("../assets/bg-pattern-2.svg");
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-color: black;
         background-size: 37%;
+        /* height: 696px; */
         background-position: 50% -25%;
     }
+   
     
     .background-image {
         display: flex;
         align-items: center;
         justify-content: center;
+        position: absolute;
+        /* top:-10%; */
+        left: 10%;
+        bottom:-375px;
         /* transform: translate(-23%, -25%); */
     }
     .background-image img{
+        /* position: relative; */
         width: 270.21px;
+        /* top:50px; */
     }
    
     .main-content-wrapper {
         width: 399px;
+        /* height: 546px; */
         /* transform: translate(65%, -65%); */
-        padding: 5%;
+        /* padding: 5%; */
+        position: relative;
+        bottom: 0px;
+        left: 32%;
+        top: 25%;
+        /* right: 10%; */
+        padding: 3%;
+    }
+    footer{
+        margin-top: 200px;
+        display: flex;
     }
     
 }
