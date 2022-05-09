@@ -18,7 +18,8 @@ body {
   /* background-size: 100%; */
   background-position: 0% -40%;
   display: grid;
-  width: var(--mobile-app-width);
+  max-width: var(--mobile-app-width);
+  width: 100%;
 }
 
 header {
@@ -219,7 +220,7 @@ footer {
     /* background-size: 100%; */
     background-position: 50% -17%;
     display: grid;
-    width: var(--tablet-app-width);
+    max-width: var(--tablet-app-width);
   }
   .title h1 {
     font-size: var(--tablet-title-font-size);
@@ -292,7 +293,7 @@ footer {
   }
 
   .app-grid {
-    width: var(--desktop-width);
+    max-width: var(--desktop-width);
   }
   .background-image {
     left: 15%;
@@ -302,7 +303,7 @@ footer {
   }
   .content-grid {
     background-size: 27%;
-    width: 1110px;
+    max-width: 1110px;
     margin: 0 auto;
     background-position: 50% 75%;
     padding-bottom: 5%;
