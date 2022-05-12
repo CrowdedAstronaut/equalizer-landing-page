@@ -1,9 +1,6 @@
 # Frontend Mentor - Equalizer Landing Page solution
 
-- Solution URL: [Git Repo](https://github.com/CrowdedAstronaut/front-end-mentor/tree/main/NFT-preview-card)
-- Live Site URL: [Live Site](https://crowdedastronaut.github.io/advice-generator-app/)
-
-This is a solution to the [Advice Generator App challenge on Frontend Mentor](https://github.com/CrowdedAstronaut/advice-generator-app).
+This is a solution to the [Equalizer Landing Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/equalizer-landing-page-7VJ4gp3DE/hub/responsive-landing-page-using-css-grid-SkSmE1PU9).
 
 ## Table of contents
 
@@ -12,7 +9,6 @@ This is a solution to the [Advice Generator App challenge on Frontend Mentor](ht
 - [Technologies](#technologies)
 - [Learning Experience](#learning)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## About <a name="about"></a>
 
@@ -119,5 +115,3 @@ html {
 
 - Website - [John Ross Phillips](https://www.johnrossphillips.com)
 - Frontend Mentor - [@CrowdedAstronaut](https://www.frontendmentor.io/profile/CrowdedAstronaut)
-
-## Acknowledgments <a name="acknowledgments"></a>
