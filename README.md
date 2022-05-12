@@ -78,32 +78,42 @@ Users should be able to:
 
 ## What I learned <a name="learning"></a>
 
-This exercise tested pixel perfect design and adjusting font-size, line-height, and line-spacing for the mobile vs. desktop views. 
+This exercise tested pixel perfect design and adjusting font-size, line-height, and line-spacing for the mobile vs. desktop views.
+
+I used an anchor tag as opposed to a button for the click listener.
 
 ```html
-<a
-  role="button"
-  tabindex="0"
-  class="green-button"
-  onclick="getAdvice()"
-  aria-label="click here to generate some advice"
-  target="_blank"
-  rel="noopener"
-></a>
+<div class="apple-button">
+  <a
+    role="button"
+    tabindex="0"
+    class="social-button"
+    aria-label="click here to download from the Apple app store"
+    rel="noopener"
+    href="https://www.apple.com/app-store/"
+  >
+    <div class="apple-icon">
+      <img
+        src="./assets/icon-apple.svg"
+        alt="this is an apple icon"
+      />
+      <span>iOS Download</span>
+    </div>
+  </a>
+</div>
 ```
 
 I used css color variables to make things easy to read and easy to change.
 
-```scss
-html{
---teal: #66E2DC;
---orange: #FA7453;
---mustard: #FFB964;
---white: #FCFAF9;
---black: #191826;
+```css
+html {
+  --teal: #66e2dc;
+  --orange: #fa7453;
+  --mustard: #ffb964;
+  --white: #fcfaf9;
+  --black: #191826;
 }
 ```
-
 
 ## Author <a name="author"></a>
 
