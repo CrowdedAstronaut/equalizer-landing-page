@@ -18,8 +18,8 @@ body {
   /* background-size: 100%; */
   background-position: 0% -40%;
   display: grid;
-  max-width: var(--mobile-app-width);
   width: 100%;
+  max-width: var(--mobile-app-width);
 }
 
 header {
