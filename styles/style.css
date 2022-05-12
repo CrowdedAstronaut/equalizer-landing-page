@@ -15,7 +15,6 @@ body {
 .app-grid {
   background-image: url("../assets/bg-main-mobile.png");
   background-repeat: no-repeat;
-  /* background-size: 100%; */
   background-position: 0% -40%;
   display: grid;
   width: 100%;
