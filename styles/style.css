@@ -32,7 +32,10 @@ header {
   padding: 0px 0px 65px 0px;
 }
 .title {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title h1 {
@@ -40,6 +43,12 @@ header {
   font-weight: var(--mobile-title-fw);
   font-style: var(--mobile-title-font-style);
   line-height: var(--mobile-title-line-height);
+  width: 75%;
+  align-items: flex-end;
+}
+
+.title-content {
+  width: 70%;
 }
 
 .title-content p {
@@ -47,6 +56,8 @@ header {
   font-weight: var(--mobile-content-fw);
   font-style: var(--mobile-content-font-style);
   line-height: var(--mobile-content-line-height);
+  display: flex;
+  flex-wrap: wrap;
 }
 .hero-image-wrapper {
   /* height: 600px;  */
@@ -211,7 +222,7 @@ footer {
     width: 266px;
     display: inline;
     position: absolute;
-    left: 63%;
+    right: 0%;
   }
   .app-grid {
     background-image: url("../assets/bg-main-tablet.png");
@@ -220,12 +231,17 @@ footer {
     background-position: 50% -17%;
     display: grid;
     max-width: var(--tablet-app-width);
+    position: relative;
   }
   .title h1 {
     font-size: var(--tablet-title-font-size);
     font-weight: var(--tablet-title-fw);
     font-style: var(--tablet-title-font-style);
     line-height: var(--tablet-title-line-height);
+  }
+
+  .title-content {
+    padding-left: 2%;
   }
 
   .title-content p {
@@ -283,16 +299,22 @@ footer {
 
 @media only screen and (min-width: 1440px) {
   header {
-    padding: 0% 0% 30% 5%;
+    padding: 1% 0% 20% 7%;
+  }
+  .hidden {
+    width: 312px;
   }
   .logo {
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding: 4.5% 0 0 5%;
   }
 
   .app-grid {
     max-width: var(--desktop-width);
+    align-items: center;
+    margin-top: 12.5%;
   }
   .background-image {
     left: 15%;
@@ -307,6 +329,9 @@ footer {
     background-position: 50% 75%;
     padding-bottom: 5%;
   }
+  .title {
+    padding: 10% 0 0 5%;
+  }
   .title h1 {
     font-size: var(--desktop-title-font-size);
     font-weight: var(--desktop-title-fw);
@@ -319,6 +344,7 @@ footer {
     font-weight: var(--desktop-content-fw);
     font-style: var(--desktop-content-font-style);
     line-height: var(--desktop-content-line-height);
+    padding-left: 5%;
   }
 
   .main-content-wrapper {
