@@ -153,7 +153,12 @@ header {
   justify-content: center;
   outline: none;
 }
-
+.apple-icon:hover {
+  background-color: var(--teal);
+}
+.android-icon:hover {
+  background-color: var(--mustard);
+}
 .apple-icon span,
 .android-icon span {
   /* font-style: italic; */
