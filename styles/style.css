@@ -314,7 +314,7 @@ footer {
   .app-grid {
     max-width: var(--desktop-width);
     align-items: center;
-    margin-top: 12.5%;
+    /* margin-top: 12.5%; */
   }
   .background-image {
     left: 15%;
