@@ -233,11 +233,13 @@ footer {
     max-width: var(--tablet-app-width);
     position: relative;
   }
+
   .title h1 {
     font-size: var(--tablet-title-font-size);
     font-weight: var(--tablet-title-fw);
     font-style: var(--tablet-title-font-style);
     line-height: var(--tablet-title-line-height);
+    width: 60%;
   }
 
   .title-content {
@@ -249,6 +251,7 @@ footer {
     font-weight: var(--tablet-content-fw);
     font-style: var(--tablet-content-font-style);
     line-height: var(--tablet-content-line-height);
+    width: 60%;
   }
 
   .content-grid {
